@@ -38,5 +38,3 @@ FaceStar is a project designed to classify celebrity faces and recognize actors 
 For any questions or suggestions, feel free to reach out:
 - **Name**: Remon
 - **Email**: ezremon88@gmail.com
-- **GitHub**:Remonez
-(https://github.com/Remonez)
