@@ -7,8 +7,11 @@ import json
 import pywt
 
 # Load Haar Cascade for face detection
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
+face_cascade_path = os.path.join(os.path.dirname(__file__), 'opencv', 'haarcascade_frontalface_default.xml')
+eye_cascade_path = os.path.join(os.path.dirname(__file__), 'opencv', 'haarcascade_eye.xml')
+
+face_cascade = cv2.CascadeClassifier(face_cascade_path)
+eye_cascade = cv2.CascadeClassifier(eye_cascade_path)
 
 # Function for wavelet transformation
 def w2d(img, mode='haar', level=5):
