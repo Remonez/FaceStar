@@ -32,7 +32,7 @@ FaceStar is a project designed to classify celebrity faces and recognize actors 
 
 ## Example Screenshot
 
-![FaceStar]!(https://github.com/user-attachments/assets/11e4c9d5-e4b4-48c2-84ab-80eeb3a17881)
+![FaceStar](https://github.com/user-attachments/assets/11e4c9d5-e4b4-48c2-84ab-80eeb3a17881)
 
 ## Contact
 For any questions or suggestions, feel free to reach out:
