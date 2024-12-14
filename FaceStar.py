@@ -83,7 +83,7 @@ if all(os.path.isfile(image_file) for image_file in image_files):
     for i, col in enumerate(cols):
         with col:
             circular_image = create_circular_image(image_files[i])
-            st.image(circular_image, caption=characters[i], use_column_width='auto')  # Maintain fixed size for images
+            st.image(circular_image, caption=characters[i], use_container_width='auto')  # Maintain fixed size for images
 
 # Function to crop the image if two eyes are detected
 def get_cropped_face(image):
@@ -129,7 +129,7 @@ if uploaded_file is not None:
             col1, col2 = st.columns([2, 3])  # Adjust ratios for desired width
 
             with col1:
-                st.image(cropped_face, caption=predicted_class, use_column_width=True)
+                st.image(cropped_face, caption=predicted_class, use_container_width=True)
 
             with col2:
                 st.markdown(f"<h3>{predicted_class}</h3>", unsafe_allow_html=True)
