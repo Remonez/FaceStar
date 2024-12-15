@@ -36,4 +36,4 @@ FaceStar is a project designed to classify celebrity faces and recognize actors 
 
 ## Contact
 For any questions or suggestions, feel free to reach out:
- **Email**: ezremon88@gmail.com
+- **Email**: ezremon88@gmail.com
