@@ -54,7 +54,7 @@ for image_file in image_files:
         st.error(f"Could not find image file: {image_file}")
 
 # Characters for display
-characters = list(class_dict.keys())
+characters = ['Denzel Washington', 'Scarlett Johansson', 'Robert Downey Jr', 'Sandra Bullock', 'Leonardo DiCaprio']
 
 # Function to create circular images with fixed size and transparency
 def create_circular_image(image_path, size=(200, 200)):
