@@ -138,3 +138,13 @@ if uploaded_file is not None:
             st.write("Could not detect a valid character.")
     else:
         st.warning("No face detected! Please upload an image containing a face for classification.")
+
+
+
+# Footer
+st.markdown("""
+    ---
+    🧑‍💻 **Developed by Remon Ez**  
+    📧 [Email](mailto:ezremon88@gmail.com) |  
+    🐙 [GitHub](https://github.com/Remonez)
+""", unsafe_allow_html=True)
