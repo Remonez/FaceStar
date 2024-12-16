@@ -144,7 +144,5 @@ if uploaded_file is not None:
 # Footer
 st.markdown("""
     ---
-    🧑‍💻 **Developed by Remon Ez**  
-    📧 [Email](mailto:ezremon88@gmail.com) |  
-    🐙 [GitHub](https://github.com/Remonez)
+    🧑‍💻 **Developed by Remon Ez**     📧 [Email](mailto:ezremon88@gmail.com)   |   🐙 [GitHub](https://github.com/Remonez)
 """, unsafe_allow_html=True)
