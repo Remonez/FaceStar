@@ -28,6 +28,7 @@ FaceStar is a project designed to classify celebrity faces and recognize actors 
 - The app detects faces, extracts features, and classifies the actor.
 - Results are displayed instantly with a confidence score.
 
+## [**Live Demo**](https://facestar.streamlit.app/)
 
 
 ## Example Screenshot
